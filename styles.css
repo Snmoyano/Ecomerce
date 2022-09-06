@@ -350,10 +350,17 @@
         height: 500px;
     }
     .aside__cart{
-        background-color:var(--colorT);
+        background-color:var(--color);
         width: 30%;
         text-align: center;
+        z-index: 2000;
+        
     }   
+
+    .aside__cart-body{
+        overflow-y: scroll;
+        
+    }
 
     .nav__shop-item {
         font-size: 1rem;
