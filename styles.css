@@ -129,7 +129,7 @@
 
 
 .conteiner__store__card button{
-    
+    color: white;
     border-style: none;
     width: 100%;
     background-color:var(--color);
@@ -267,7 +267,7 @@
     align-items: center;
     font-size: 1rem;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 .acumulado{
@@ -296,7 +296,7 @@
 
     .conteiner__nav__logo i{
         font-size: 3rem;
-        color: black;
+        color: white;
     }
 
     .container__nav__menu{
@@ -311,13 +311,13 @@
         
     }
     .conteiner__nav ul a{
-        color: black;
+        color: white;
 
     }
 
     .conteiner__nav ul a:hover{
         transition: 0,5s;
-        color: white;
+        color: red;
         border-radius: .5rem;
         font-size: 20px;
     }
