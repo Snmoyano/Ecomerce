@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <i class='bx bxs-wine'></i> -->
+    <title>CARRITO 2.0</title>
+</head>
+<body>
+    <main class="conteiner">
+        <div class="conteiner__nav" >
+            <div class="conteiner__nav__logo">
+                <i class='bx bxs-wine'></i>
+            </div>
+            <div class="container__nav__menu">
+                <!-- <a href="#">carrito_logo</a> -->
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#variedades">VARIETIES</a></li>
+                    <li><a href="#vinos">STORE</a></li>
+                    <li><a href="#top-sellers">TOP SELLERS</a></li>                    
+                </ul>
+            </div>
+        </div>
+        
+        <div class="conteiner__slider" id="home">
+            <ul>
+                <li><img src="./assets/vinoslider1.jpg" alt="vino1"></li>
+                <li><img src="./assets/vinoslider2.jpg" alt="vino2"></li>
+                <li><img src="./assets/vinoslider3.jpg" alt="vino3"></li>
+                <li><img src="./assets/vinoslider4.jpg" alt="vino4"></li>
+            </ul>
+        </div>
+        <div class="conteiner__categorias" id="variedades">
+            <a href="#"><img src="./assets/malbec1.jpeg" alt="">
+                <h2>MALBEC</h2>
+            </a>
+            <a href="#"><img src="./assets/cabernet2.jpeg" alt="">
+                <h2>CABERNET</h2>
+            </a>
+            <a href="#"><img src="./assets/blanco2.jpeg" alt="">
+                <h2>BLANCO</h2>
+            </a>
+            <a href="#"><img src="./assets/rosado2.jpeg" alt="">
+                <h2>ROSADO</h2>
+            </a>
+        </div>
+        <div class="conteiner__store" id="vinos">
+            
+            <!-- <div class="conteiner__store__card">
+                <img src="./assets/blanco1.jpeg" alt="">
+                <h3>descripcion</h3>
+                <p>$precio</p>
+                <button>comprar</button>
+            </div>
+            <div class="conteiner__store__card">
+                <img src="./assets/blanco2.jpeg" alt="">
+                <h3>descripcion</h3>
+                <p>$precio</p>
+                <button>comprar</button>
+            </div> -->
+            
+        </div>
+        <div class="conteiner__top-sellers" id="top-sellers">
+            <i class='bx bxs-wine'></i>
+            <h2>TOP SELLERS</h2>
+            <ul class="container__top-sellers_items">
+                
+                <li><img src="./assets/blanco1.jpeg" alt="vino1"></li>
+                <li><img src="./assets/cabernet1.jpeg" alt="vin02"></li>
+                <li><img src="./assets/rosado1.jpeg" alt="vino3"></li>
+                <li><img src="./assets/malbec2.jpeg" alt="vino4"></li>
+            </ul>
+        </div>
+        <div class="nav__shop">
+            <div class="nav__shop-category nav__shop-item">
+                <a href="#variedades"><i class='bx bxs-category-alt'></i></a>
+                <p><small>Categorys</small></p>
+            </div>
+            <div class="nav__shop-sellers nav__shop-item">
+                <a href="#top-sellers"><i class='bx bx-purchase-tag-alt'></i></a>
+                <p><small>Top Sellers</small></p>
+            </div>
+            <div class="nav__shop__cart nav__shop-item" id="iconCart">
+                <i class='bx bx-cart-alt'></i>
+                
+                
+                <p><small>Cart</small></p>
+                <p class="acumulado" id="productsTotal"></p>
+                
+            </div>
+        </div>
+        <!-- <footer class="conteiner__social">
+            <p>hola putoss</p>
+            <div class="conteiner__social-icons">
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-facebook-circle'></i></a>
+        </footer> -->
+            
+        </div>
+        <section class="aside__cart" id="contentCart">
+            <div class="aside__cart-body">
+
+            </div>
+            
+            <div class="aside__cart-total">
+                <h3>TOTAL:<span id="total"></span></h3>
+            </div>
+        </section>
+    </main>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
