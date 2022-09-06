@@ -15,7 +15,7 @@ products.forEach(({id,nombre,precio,imagen,stock})=>{
                     <h3>${nombre}</h3>
                     <p>$${precio}</p>
                     <p>Stock:${stock}</p>
-                    <button class="btn__add">AGREGAR</button>
+                    <button class="btn__add">COMPRAR</button>
                 </div>
             </div>
             `
